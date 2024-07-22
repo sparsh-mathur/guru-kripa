@@ -1,7 +1,55 @@
+import { CardWithImage } from "@/components";
+import { Carousel } from "@/components/Carousel";
+import { SERVICES } from "@/constants/services";
 import React from "react";
 
 const page = () => {
-  return <div>page</div>;
+  return (
+    <div className="relative flex flex-col gap-2">
+      {/* carousel section */}
+      <section>
+        <div className="absolute top-[10%] left-[15%] z-40 bg-[#fff]/50 backdrop-blur-sm shadow-lg p-8 rounded-sm flex flex-col gap-8">
+          <h1 className="text-4xl text-black font-bold text-center">
+            Welcome to Guru Kripa RC Security Services
+          </h1>
+          <p className="text-black text-left">
+            ISO Certified, CAPSI Certified, PSARA accredited Security Guard
+            Agency
+          </p>
+          <div className="flex gap-4">
+            <button className="border-[#CCAE68] border-4 text-amber-900 px-4 py-2 rounded-md text-lg">
+              Learn More
+            </button>
+            <button className="bg-[#CCAE68] text-black px-4 py-2 rounded-md text-lg">
+              Contact Us
+            </button>
+          </div>
+        </div>
+        <Carousel />
+      </section>
+
+      {/* our services section */}
+      <section className="container m-auto mt-8">
+        <div className="flex flex-col gap-8">
+          <h1 className="text-4xl font-bold text-center">
+            OUR <span className="text-[#CCAE68]">SERVICES</span>
+          </h1>
+          <p className="text-center px-20">
+            At Guru Kripa RC Security Services, we are committed to delivering
+            security excellence that goes beyond the ordinary. With a team of
+            highly trained and certified security professionals, we stand as
+            your trusted partners in safeguarding your assets, property, and
+            ensuring your peace of mind.
+          </p>
+          <div className="flex flex-wrap gap-4">
+            {SERVICES.map((service, index) => (
+              <CardWithImage key={index} data={service} />
+            ))}
+          </div>
+        </div>
+      </section>
+    </div>
+  );
 };
 
 export default page;

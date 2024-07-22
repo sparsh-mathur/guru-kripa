@@ -20,10 +20,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={classNames(inter.className, "flex flex-col")}>
         <Header />
-        <main className="flex-1 max-w-7xl m-auto h-full w-full">
-          {children}
-        </main>
+        <main className="flex-1 m-auto w-full">{children}</main>
         <Footer />
+        <script
+          src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"
+          async
+        ></script>
       </body>
     </html>
   );
