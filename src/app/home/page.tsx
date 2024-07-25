@@ -41,11 +41,38 @@ const page = () => {
             your trusted partners in safeguarding your assets, property, and
             ensuring your peace of mind.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-4 my-4 justify-center">
             {SERVICES.map((service, index) => (
               <CardWithImage key={index} data={service} />
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* industries we have served */}
+      <section className="bg-slate-100 w-full p-8 flex flex-col gap-8 mb-96">
+        <h1 className="text-4xl text-black font-bold text-center">
+          INDUSTRIES
+          <span className="text-[#CCAE68]"> WE HAVE SERVED</span>
+        </h1>
+        <div className="flex gap-4 overflow-scroll container m-auto no-scrollbar">
+          {[...SERVICES, ...SERVICES].map((industry, index) => (
+            <div
+              key={index}
+              className="min-w-[240px] h-full border bg-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+            >
+              <img
+                className="rounded-t-lg w-full aspect-video"
+                src={industry.img}
+                alt={industry.title}
+              />
+              <div className="p-4 border text-center flex flex-col items-center py-10">
+                <h5 className="font-bold tracking-tight text-gray-900 dark:text-white">
+                  {industry.title}
+                </h5>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
     </div>
