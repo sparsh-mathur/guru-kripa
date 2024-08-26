@@ -4,7 +4,8 @@ import Image from "next/image";
 export const Header = () => {
   return (
     <header className="bg-white drop-shadow-md">
-      <div className="bg-[#CCAE68] w-full h-10 flex items-center">
+      {/* <div className="bg-[sky-800] w-full h-10 flex items-center"> */}
+      <div className="bg-[#e36f5f] w-full h-10 flex items-center">
         <div className="container m-auto w-full flex justify-end">
           <p className="text-white text-sm">{`Sales :+91-7982606235, Job/भर्ती: +91-9958226437`}</p>
         </div>
