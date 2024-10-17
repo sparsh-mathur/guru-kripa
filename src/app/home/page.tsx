@@ -2,6 +2,7 @@ import { CardWithImage } from "@/components";
 import { Carousel } from "@/components/Carousel";
 import ContactFormSection from "@/components/ContactFormSection";
 import { SERVICES } from "@/constants/services";
+import {CLIENTS} from '@/constants/clients'
 import React from "react";
 
 const page = () => {
@@ -59,7 +60,7 @@ const page = () => {
           <span className="text-sky-800"> WE HAVE SERVED</span>
         </h1>
         <div className="flex gap-4 overflow-scroll container m-auto no-scrollbar">
-          {[...SERVICES, ...SERVICES].map((industry, index) => (
+          {[...CLIENTS].map((industry, index) => (
             <div
               key={index}
               className="min-w-[240px] h-full border bg-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"

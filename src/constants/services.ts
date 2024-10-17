@@ -12,7 +12,7 @@ export const SERVICES = [
       "For situations that demand an added layer of security, our highly skilled gunmen are equipped to handle complex security challenges with precision.",
   },
   {
-    img: "/assets/images/horiz-3.jpg",
+    img: "/assets/images/supervisors.jpeg",
     title: "Supervisors",
     description:
       "Our experienced supervisors play a crucial role in overseeing security operations, ensuring a seamless and effective security system.",
@@ -24,37 +24,31 @@ export const SERVICES = [
       "We offer specialized personal security officers for individuals who require personalized security services, providing a discreet and reliable shield.",
   },
   {
-    img: "/assets/images/horiz-5.jpg",
+    img: "/assets/images/security-guard-regulating-in-a-nightclub.jpg",
     title: "Bouncers",
     description:
       "In environments where crowd control is essential, our professional bouncers are trained to maintain order and security.",
   },
   {
-    img: "/assets/images/horiz-5.jpg",
+    img: "/assets/images/woman-working-as-a-security-guard.jpg",
     title: "Lady Security Guards",
     description:
       "Professionally trained and skilled, our Lady Security Guards provide discreet yet effective security solutions for environments requiring heightened sensitivity and care, such as residential complexes, hospitals, and educational institutions.",
   },
   {
-    img: "/assets/images/horiz-5.jpg",
+    img: "/assets/images/housekeeper.jpg",
     title: "Housekeeping",
     description:
       "Our expert Housekeeping staff delivers top-notch cleaning and maintenance services, ensuring a spotless, hygienic environment in commercial and residential spaces, tailored to meet your specific cleanliness standards.",
   },
   {
-    img: "/assets/images/horiz-5.jpg",
-    title: "Housekeeping",
-    description:
-      "",
-  },
-  {
-    img: "/assets/images/horiz-5.jpg",
+    img: "/assets/images/supervisor-and-employee-of-a-cleaning-team.jpg",
     title: "HouseKeeping Supervisor",
     description:
       "The Housekeeping Supervisor oversees all cleaning activities, ensuring that the highest standards of hygiene and order are consistently met, while managing teams effectively to maintain a professional atmosphere.",
   },
   {
-    img: "/assets/images/horiz-5.jpg",
+    img: "/assets/images/waiter-holding-plate.jpg",
     title: "Pantry Boy",
     description:
       "Our trained Pantry Boys are attentive and courteous, handling pantry services, preparing refreshments, and maintaining the cleanliness of dining areas, ensuring smooth and efficient food and beverage service.",
