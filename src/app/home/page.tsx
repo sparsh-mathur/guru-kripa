@@ -1,5 +1,6 @@
 import { CardWithImage } from "@/components";
 import { Carousel } from "@/components/Carousel";
+import ContactFormSection from "@/components/ContactFormSection";
 import { SERVICES } from "@/constants/services";
 import React from "react";
 
@@ -20,9 +21,11 @@ const page = () => {
             <button className="border-sky-800 border-4 text-amber-900 px-4 py-2 rounded-md text-lg">
               Learn More
             </button>
-            <button className="bg-sky-800 text-white px-4 py-2 rounded-md text-lg">
-              Contact Us
-            </button>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfACutfsszRjneYE5mJOkGabZ7NQSAPb7EIOtnGQJ-JrD7rfg/viewform?pli=1">
+              <button className="bg-sky-800 text-white px-4 py-2 rounded-md text-lg">
+                Contact Us
+              </button>
+            </a>
           </div>
         </div>
         <Carousel />
@@ -50,7 +53,7 @@ const page = () => {
       </section>
 
       {/* industries we have served */}
-      <section className="bg-slate-100 w-full p-8 flex flex-col gap-8 mb-96">
+      <section className="bg-slate-100 w-full p-8 flex flex-col gap-8">
         <h1 className="text-4xl text-black font-bold text-center">
           INDUSTRIES
           <span className="text-sky-800"> WE HAVE SERVED</span>
@@ -75,6 +78,8 @@ const page = () => {
           ))}
         </div>
       </section>
+
+      <ContactFormSection />
     </div>
   );
 };
