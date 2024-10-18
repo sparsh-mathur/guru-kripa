@@ -2,6 +2,7 @@ import { CardWithImage } from "@/components";
 import { Carousel } from "@/components/Carousel";
 import ContactFormSection from "@/components/ContactFormSection";
 import { SERVICES } from "@/constants/services";
+import {CLIENTS} from '@/constants/clients'
 import React from "react";
 
 const page = () => {
@@ -56,10 +57,10 @@ const page = () => {
       <section className="bg-slate-100 w-full p-8 flex flex-col gap-8">
         <h1 className="text-4xl text-black font-bold text-center">
           INDUSTRIES
-          <span className="text-[#CCAE68]"> WE HAVE SERVED</span>
+          <span className="text-sky-800"> WE HAVE SERVED</span>
         </h1>
         <div className="flex gap-4 overflow-scroll container m-auto no-scrollbar">
-          {[...SERVICES, ...SERVICES].map((industry, index) => (
+          {[...CLIENTS].map((industry, index) => (
             <div
               key={index}
               className="min-w-[240px] h-full border bg-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"

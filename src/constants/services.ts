@@ -3,30 +3,54 @@ export const SERVICES = [
     img: "/assets/images/horiz-1.jpg",
     title: "Security Guard Services",
     description:
-      "We offer comprehensive security guard services to protect your premises and ensure the safety of your employees and assets. Our highly trained and professional security guards are equipped with the latest technology and techniques to handle any security situation. From access control and surveillance to emergency response and risk assessment, we provide a wide range of security solutions tailored to meet your specific needs. Trust us to safeguard your property and maintain a secure environment",
+      "Our well-trained security guards are vigilant and adept at ensuring the safety of commercial sectors, residential areas, companies, and more."
   },
   {
     img: "/assets/images/horiz-2.jpg",
-    title: "Security Guard Services",
+    title: "Armed Guard (Gunman)",
     description:
-      "We offer comprehensive security guard services to protect your premises and ensure the safety of your employees and assets. Our highly trained and professional security guards are equipped with the latest technology and techniques to handle any security situation. From access control and surveillance to emergency response and risk assessment, we provide a wide range of security solutions tailored to meet your specific needs. Trust us to safeguard your property and maintain a secure environment",
+      "For situations that demand an added layer of security, our highly skilled gunmen are equipped to handle complex security challenges with precision.",
   },
   {
-    img: "/assets/images/horiz-3.jpg",
-    title: "Security Guard Services",
+    img: "/assets/images/supervisors.jpeg",
+    title: "Supervisors",
     description:
-      "We offer comprehensive security guard services to protect your premises and ensure the safety of your employees and assets. Our highly trained and professional security guards are equipped with the latest technology and techniques to handle any security situation. From access control and surveillance to emergency response and risk assessment, we provide a wide range of security solutions tailored to meet your specific needs. Trust us to safeguard your property and maintain a secure environment",
+      "Our experienced supervisors play a crucial role in overseeing security operations, ensuring a seamless and effective security system.",
   },
   {
     img: "/assets/images/horiz-4.jpg",
-    title: "Security Guard Services",
+    title: "PSOs (Personal Security Officers)",
     description:
-      "We offer comprehensive security guard services to protect your premises and ensure the safety of your employees and assets. Our highly trained and professional security guards are equipped with the latest technology and techniques to handle any security situation. From access control and surveillance to emergency response and risk assessment, we provide a wide range of security solutions tailored to meet your specific needs. Trust us to safeguard your property and maintain a secure environment",
+      "We offer specialized personal security officers for individuals who require personalized security services, providing a discreet and reliable shield.",
   },
   {
-    img: "/assets/images/horiz-5.jpg",
-    title: "Security Guard Services",
+    img: "/assets/images/security-guard-regulating-in-a-nightclub.jpg",
+    title: "Bouncers",
     description:
-      "We offer comprehensive security guard services to protect your premises and ensure the safety of your employees and assets. Our highly trained and professional security guards are equipped with the latest technology and techniques to handle any security situation. From access control and surveillance to emergency response and risk assessment, we provide a wide range of security solutions tailored to meet your specific needs. Trust us to safeguard your property and maintain a secure environment",
+      "In environments where crowd control is essential, our professional bouncers are trained to maintain order and security.",
+  },
+  {
+    img: "/assets/images/woman-working-as-a-security-guard.jpg",
+    title: "Lady Security Guards",
+    description:
+      "Professionally trained and skilled, our Lady Security Guards provide discreet yet effective security solutions for environments requiring heightened sensitivity and care, such as residential complexes, hospitals, and educational institutions.",
+  },
+  {
+    img: "/assets/images/housekeeper.jpg",
+    title: "Housekeeping",
+    description:
+      "Our expert Housekeeping staff delivers top-notch cleaning and maintenance services, ensuring a spotless, hygienic environment in commercial and residential spaces, tailored to meet your specific cleanliness standards.",
+  },
+  {
+    img: "/assets/images/supervisor-and-employee-of-a-cleaning-team.jpg",
+    title: "HouseKeeping Supervisor",
+    description:
+      "The Housekeeping Supervisor oversees all cleaning activities, ensuring that the highest standards of hygiene and order are consistently met, while managing teams effectively to maintain a professional atmosphere.",
+  },
+  {
+    img: "/assets/images/waiter-holding-plate.jpg",
+    title: "Pantry Boy",
+    description:
+      "Our trained Pantry Boys are attentive and courteous, handling pantry services, preparing refreshments, and maintaining the cleanliness of dining areas, ensuring smooth and efficient food and beverage service.",
   },
 ];
