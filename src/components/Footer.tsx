@@ -81,7 +81,7 @@ export const Footer = () => {
             <div className="md:col-span-1">
               <h3 className="text-lg font-semibold mb-4">Contact us</h3>
               <p className="mb-2">
-                305, 3rd Floor Ashok Bhawan 93, Nehru Place
+                Village Gijhore, Sector 53, main market near CNG pump Noida,GB Nagar, Uttar Pradesh, 201301
               </p>
               <p className="mb-2">
                 sales@promansecuritech.com, jobs@promansecuritech.com
