@@ -12,11 +12,10 @@ const page = () => {
       <section>
         <div className="absolute top-[8%] left-[15%] z-40 bg-[#fff]/50 backdrop-blur-sm shadow-lg p-8 rounded-sm flex flex-col gap-8">
           <h1 className="text-4xl text-black font-bold text-center">
-            Welcome to Guru Kripa RC Security Services
+            Welcome to Guru Kripa R.C. Security Services
           </h1>
           <p className="text-black text-left">
-            ISO Certified, CAPSI Certified, PSARA accredited Security Guard
-            Agency
+            PSARA Certified Security Service Agency
           </p>
           <div className="flex gap-4">
             <button className="border-sky-800 border-4 text-amber-900 px-4 py-2 rounded-md text-lg">
@@ -39,7 +38,7 @@ const page = () => {
             OUR <span className="text-sky-800">SERVICES</span>
           </h1>
           <p className="text-center px-20">
-            At Guru Kripa RC Security Services, we are committed to delivering
+            At Guru Kripa R.C. Security Services, we are committed to delivering
             security excellence that goes beyond the ordinary. With a team of
             highly trained and certified security professionals, we stand as
             your trusted partners in safeguarding your assets, property, and

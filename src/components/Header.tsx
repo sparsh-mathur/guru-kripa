@@ -18,7 +18,7 @@ export const Header = () => {
             alt="Your Name"
           />
           <h1 className="text-2xl font-bold">
-            Guru Kripa RC Security Services
+            Guru Kripa R.C. Security Services
           </h1>
         </div>
         <nav>

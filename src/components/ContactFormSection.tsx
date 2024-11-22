@@ -9,7 +9,7 @@ const QUESTIONS = [
   {
     title: "PSARA License Registration",
     subtitle:
-      "Guru Kripa RC Security Services is proud to be registered under the Private Security Agencies Regulation Act (PSARA). This certification signifies our compliance with legal standards, assuring clients of the legitimacy and reliability of our security services.",
+      "Guru Kripa R.C. Security Services is proud to be registered under the Private Security Agencies Regulation Act (PSARA). This certification signifies our compliance with legal standards, assuring clients of the legitimacy and reliability of our security services.",
   },
   {
     title: "How many year's exprience",
