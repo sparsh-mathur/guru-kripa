@@ -29,22 +29,7 @@ export const Header = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="">
-                About Us
-              </a>
-            </li>
-            <li>
-              <a href="#" className="">
-                Our Services
-              </a>
-            </li>
-            <li>
-              <a href="#" className="">
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href="#" className="">
+              <a href="#contact" className="">
                 Contact Us
               </a>
             </li>

@@ -20,7 +20,7 @@ const QUESTIONS = [
 
 const ContactFormSection = () => {
   return (
-    <section className="bg-slate-100 w-full flex flex-col gap-8">
+    <section className="bg-slate-100 w-full flex flex-col gap-8" id="contact">
       <div className="grid grid-rows-1 grid-cols-2">
         <div className="pl-32 pr-8 h-96 flex flex-col justify-around">
           {QUESTIONS.map((item, index) => (

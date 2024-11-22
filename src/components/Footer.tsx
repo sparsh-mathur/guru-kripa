@@ -23,17 +23,6 @@ export const Footer = () => {
                 Across The Ncr. Proman Securitech Pvt. Ltd. – (ISO 9001:2015
                 Certified. Proman Securitech was established some 19 years ago .
               </p>
-              <div className="flex space-x-4">
-                <Link href="#" className="text-white hover:text-gray-300">
-                  <Facebook />
-                </Link>
-                <Link href="#" className="text-white hover:text-gray-300">
-                  <Twitter />
-                </Link>
-                <Link href="#" className="text-white hover:text-gray-300">
-                  <Instagram />
-                </Link>
-              </div>
             </div>
 
             {/* Service Links */}
@@ -48,7 +37,7 @@ export const Footer = () => {
                   "Personal Security Officer",
                 ].map((item) => (
                   <li key={item}>
-                    <Link href="#" className="hover:text-gray-300">
+                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfACutfsszRjneYE5mJOkGabZ7NQSAPb7EIOtnGQJ-JrD7rfg/viewform?pli=1" className="hover:text-gray-300">
                       {item}
                     </Link>
                   </li>
@@ -61,16 +50,14 @@ export const Footer = () => {
               <h3 className="text-lg font-semibold mb-4">Support Links</h3>
               <ul className="space-y-2">
                 {[
-                  "About Us",
-                  "Blog",
-                  "Contact Us",
-                  "Brochures",
-                  "Privacy Policy",
-                  "Terms & Conditions",
+                 {name:"About Us",link:"#management"},
+                  {name:"Contact Us",link:"#contact"},
+                  {name:"Brochures",link:"#"},
+                  {name:"Privacy Policy",link:"/privacy-policy"},
                 ].map((item) => (
-                  <li key={item}>
-                    <Link href="#" className="hover:text-gray-300">
-                      {item}
+                  <li key={item.name}>
+                    <Link href={item.link} className="hover:text-gray-300">
+                      {item.name}
                     </Link>
                   </li>
                 ))}
