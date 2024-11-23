@@ -22,7 +22,7 @@ export default function PrivacyPolicy() {
         <h3 className="text-lg font-medium mb-2">Definitions</h3>
         <ul className="list-disc pl-6 text-sm space-y-2 mb-4">
           <li><span className="font-medium">Account</span> means a unique account created for You to access our Service or parts of our Service.</li>
-          <li><span className="font-medium">Company</span> (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Guru Kripa R.C. Security Services, Noida, GB Nagar, Uttar Pradesh, 201301.</li>
+          <li><span className="font-medium">Company</span> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Guru Kripa R.C. Security Services, Noida, GB Nagar, Uttar Pradesh, 201301.</li>
           <li><span className="font-medium">Cookies</span> are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.</li>
           <li><span className="font-medium">Country</span> refers to: India</li>
           <li><span className="font-medium">Device</span> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</li>
@@ -55,7 +55,7 @@ export default function PrivacyPolicy() {
           Usage Data is collected automatically when using the Service.
         </p>
         <p className="text-sm mb-4">
-          Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
+          Usage Data may include information such as Your Device&apos;s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
         </p>
         <p className="text-sm mb-4">
           When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.
@@ -75,7 +75,7 @@ export default function PrivacyPolicy() {
           <li><span className="font-medium">Web Beacons.</span> Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).</li>
         </ul>
         <p className="text-sm mb-4">
-          Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser.
+          Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser.
         </p>
         <p className="text-sm mb-4">
           We use both Session and Persistent Cookies for the purposes set out below:
@@ -123,7 +123,7 @@ export default function PrivacyPolicy() {
             For the performance of a contract: The development, compliance, and undertaking of the purchase contract for the products, items, or services You have purchased or of any other contract with Us through the Service.
           </li>
           <li>
-            To contact You: By email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application’s push notifications regarding updates or informative communications related to the functionalities, products, or contracted services, including security updates, when necessary or reasonable for their implementation.
+            To contact You: By email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application&apos;s push notifications regarding updates or informative communications related to the functionalities, products, or contracted services, including security updates, when necessary or reasonable for their implementation.
           </li>
           <li>
             To provide You with updates: News, special offers, and general information about other goods, services, and events We offer that are similar to those You have already purchased or enquired about unless You have opted not to receive such information.
@@ -172,7 +172,7 @@ export default function PrivacyPolicy() {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-2">Transfer of Your Personal Data</h2>
         <p>
-          Your information, including Personal Data, is processed at the Company’s operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
+          Your information, including Personal Data, is processed at the Company&apos;s operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.
         </p>
         <br />
         <p>
@@ -229,21 +229,21 @@ export default function PrivacyPolicy() {
         </p>
         <br />
 
-        <h3 className="text-lg font-medium mb-2">Children's Privacy</h3>
+        <h3 className="text-lg font-medium mb-2">Children&apos;s Privacy</h3>
         <p>
-          Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers. If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.
+          Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers. If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent&apos;s consent before We collect and use that information.
         </p>
         <br />
 
         <h3 className="text-lg font-medium mb-2">Links to Other Websites</h3>
         <p>
-          Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit. We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+          Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party&apos;s site. We strongly advise You to review the Privacy Policy of every site You visit. We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
         </p>
         <br />
 
         <h3 className="text-lg font-medium mb-2">Changes to this Privacy Policy</h3>
         <p>
-          We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page. We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+          We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page. We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the &quot;Last updated&quot; date at the top of this Privacy Policy. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
         </p>
         <br />
 
