@@ -19,21 +19,10 @@ export const Footer = () => {
                 className="mb-4"
               />
               <p className="text-sm mb-4">
-                Best Security Service Provider in Delhi, Noida, Gurgaon & All
-                Across The Ncr. Proman Securitech Pvt. Ltd. – (ISO 9001:2015
-                Certified. Proman Securitech was established some 19 years ago .
+                Best Security Service Provider in Delhi, Noida, Gurgaon & All Across The Ncr.
+                <br />
+                Guru Kripa R.C. Security Services PSARA Certified. Proman Securitech was established in 2013.
               </p>
-              <div className="flex space-x-4">
-                <Link href="#" className="text-white hover:text-gray-300">
-                  <Facebook />
-                </Link>
-                <Link href="#" className="text-white hover:text-gray-300">
-                  <Twitter />
-                </Link>
-                <Link href="#" className="text-white hover:text-gray-300">
-                  <Instagram />
-                </Link>
-              </div>
             </div>
 
             {/* Service Links */}
@@ -48,7 +37,7 @@ export const Footer = () => {
                   "Personal Security Officer",
                 ].map((item) => (
                   <li key={item}>
-                    <Link href="#" className="hover:text-gray-300">
+                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfACutfsszRjneYE5mJOkGabZ7NQSAPb7EIOtnGQJ-JrD7rfg/viewform?pli=1" className="hover:text-gray-300">
                       {item}
                     </Link>
                   </li>
@@ -61,16 +50,14 @@ export const Footer = () => {
               <h3 className="text-lg font-semibold mb-4">Support Links</h3>
               <ul className="space-y-2">
                 {[
-                  "About Us",
-                  "Blog",
-                  "Contact Us",
-                  "Brochures",
-                  "Privacy Policy",
-                  "Terms & Conditions",
+                 {name:"About Us",link:"#management"},
+                  {name:"Contact Us",link:"#contact"},
+                  {name:"Brochures",link:"#"},
+                  {name:"Privacy Policy",link:"/privacy-policy"},
                 ].map((item) => (
-                  <li key={item}>
-                    <Link href="#" className="hover:text-gray-300">
-                      {item}
+                  <li key={item.name}>
+                    <Link href={item.link} className="hover:text-gray-300">
+                      {item.name}
                     </Link>
                   </li>
                 ))}
@@ -81,13 +68,23 @@ export const Footer = () => {
             <div className="md:col-span-1">
               <h3 className="text-lg font-semibold mb-4">Contact us</h3>
               <p className="mb-2">
-                Village Gijhore, Sector 53, main market near CNG pump Noida,GB Nagar, Uttar Pradesh, 201301
+                Village Gijhore, Sector 53, main market near CNG pump, Noida, GB Nagar, Uttar Pradesh, 201301
               </p>
               <p className="mb-2">
-                sales@promansecuritech.com, jobs@promansecuritech.com
+                <a href="mailto:MaharanaPratap.gkrcss@gmail.com" className="text-white-500 hover:underline">
+                  MaharanaPratap.gkrcss@gmail.com
+                </a>
               </p>
-              <p className="mb-2">+91-7353031222</p>
-              <p>+91-9999176075</p>
+              <p className="mb-2">
+                <a href="tel:+917982606235" className="text-white-500 hover:underline">
+                  +91-7982606235
+                </a>
+              </p>
+              <p>
+                <a href="tel:+919958226437" className="text-white-500 hover:underline">
+                  +91-9958226437
+                </a>
+              </p>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ const QUESTIONS = [
   {
     title: "PSARA License Registration",
     subtitle:
-      "Guru Kripa RC Security Services is proud to be registered under the Private Security Agencies Regulation Act (PSARA). This certification signifies our compliance with legal standards, assuring clients of the legitimacy and reliability of our security services.",
+      "Guru Kripa R.C. Security Services is proud to be registered under the Private Security Agencies Regulation Act (PSARA). This certification signifies our compliance with legal standards, assuring clients of the legitimacy and reliability of our security services.",
   },
   {
     title: "How many year's exprience",
@@ -20,7 +20,7 @@ const QUESTIONS = [
 
 const ContactFormSection = () => {
   return (
-    <section className="bg-slate-100 w-full flex flex-col gap-8">
+    <section className="bg-slate-100 w-full flex flex-col gap-8" id="contact">
       <div className="grid grid-rows-1 grid-cols-2">
         <div className="pl-32 pr-8 h-96 flex flex-col justify-around">
           {QUESTIONS.map((item, index) => (

@@ -18,7 +18,7 @@ export const Header = () => {
             alt="Your Name"
           />
           <h1 className="text-2xl font-bold">
-            Guru Kripa RC Security Services
+            Guru Kripa R.C. Security Services
           </h1>
         </div>
         <nav>
@@ -29,22 +29,7 @@ export const Header = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="">
-                About Us
-              </a>
-            </li>
-            <li>
-              <a href="#" className="">
-                Our Services
-              </a>
-            </li>
-            <li>
-              <a href="#" className="">
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href="#" className="">
+              <a href="#contact" className="">
                 Contact Us
               </a>
             </li>
