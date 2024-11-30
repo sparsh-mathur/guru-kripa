@@ -18,9 +18,11 @@ const page = () => {
             PASARA Certified Security Service Agency
           </p>
           <div className="flex gap-4">
+            <a href="#aboutus">
             <button className="border-sky-800 border-4 text-amber-900 px-4 py-2 rounded-md text-lg">
               Learn More
             </button>
+            </a>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfACutfsszRjneYE5mJOkGabZ7NQSAPb7EIOtnGQJ-JrD7rfg/viewform?pli=1">
               <button className="bg-sky-800 text-white px-4 py-2 rounded-md text-lg">
                 Contact Us

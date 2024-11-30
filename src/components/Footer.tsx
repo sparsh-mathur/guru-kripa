@@ -52,7 +52,7 @@ export const Footer = () => {
                 {[
                  {name:"About Us",link:"#management"},
                   {name:"Contact Us",link:"#contact"},
-                  {name:"Brochures",link:"#"},
+                  {name:"Brochure",link:"#"},
                   {name:"Privacy Policy",link:"/privacy-policy"},
                 ].map((item) => (
                   <li key={item.name}>
