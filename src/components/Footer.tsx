@@ -50,19 +50,25 @@ export const Footer = () => {
               <h3 className="text-lg font-semibold mb-4">Support Links</h3>
               <ul className="space-y-2">
                 {[
-                 {name:"About Us",link:"#management"},
-                  {name:"Contact Us",link:"#contact"},
-                  {name:"Brochure",link:"#"},
-                  {name:"Privacy Policy",link:"/privacy-policy"},
+                  { name: "About Us", link: "#management" },
+                  { name: "Contact Us", link: "#contact" },
+                  { name: "Brochure", link: "/assets/pdfs/Brochure.pdf" },
+                  { name: "Privacy Policy", link: "/privacy-policy" },
                 ].map((item) => (
                   <li key={item.name}>
-                    <Link href={item.link} className="hover:text-gray-300">
+                    <Link
+                      href={item.link}
+                      className="hover:text-gray-300"
+                      target={item.name === "Brochure" ? "_blank" : undefined} // Open brochure in a new tab
+                      download={item.name === "Brochure" ? "Brochure.pdf" : undefined} // Add download attribute
+                    >
                       {item.name}
                     </Link>
                   </li>
                 ))}
               </ul>
             </div>
+
 
             {/* Contact Us */}
             <div className="md:col-span-1">
