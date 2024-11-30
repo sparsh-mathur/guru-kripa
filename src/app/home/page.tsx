@@ -24,7 +24,7 @@ const page = () => {
               Learn More
             </button>
             </a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfACutfsszRjneYE5mJOkGabZ7NQSAPb7EIOtnGQJ-JrD7rfg/viewform?pli=1">
+            <a href="#contact">
               <button className="bg-sky-800 text-white px-4 py-2 rounded-md text-lg">
                 Contact Us
               </button>

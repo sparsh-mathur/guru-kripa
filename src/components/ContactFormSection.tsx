@@ -42,7 +42,11 @@ const ContactFormSection = () => {
           ))}
         </div>
         <div className="pr-32 h-96 flex justify-center items-center">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfACutfsszRjneYE5mJOkGabZ7NQSAPb7EIOtnGQJ-JrD7rfg/viewform?pli=1">
+          <a 
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfACutfsszRjneYE5mJOkGabZ7NQSAPb7EIOtnGQJ-JrD7rfg/viewform?pli=1"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
             <button className="bg-sky-800 text-white px-4 py-2 rounded-md text-lg">
               Get A Quote
             </button>

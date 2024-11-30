@@ -51,7 +51,7 @@ export const Footer = () => {
               <ul className="space-y-2">
                 {[
                   { name: "About Us", link: "#management" },
-                  { name: "Contact Us", link: "#contact" },
+                  { name: "Contact Us", link: "https://docs.google.com/forms/d/e/1FAIpQLSfACutfsszRjneYE5mJOkGabZ7NQSAPb7EIOtnGQJ-JrD7rfg/viewform?pli=1" },
                   { name: "Brochure", link: "/assets/pdfs/Brochure.pdf" },
                   { name: "Privacy Policy", link: "/privacy-policy" },
                 ].map((item) => (
@@ -59,7 +59,8 @@ export const Footer = () => {
                     <Link
                       href={item.link}
                       className="hover:text-gray-300"
-                      target={item.name === "Brochure" ? "_blank" : undefined} // Open brochure in a new tab
+                      target={item.name === "Contact Us" ? "_blank" : undefined} // Open Contact Us in a new tab
+                      rel={item.name === "Contact Us" ? "noopener noreferrer" : undefined} // Add security attributes
                       download={item.name === "Brochure" ? "Brochure.pdf" : undefined} // Add download attribute
                     >
                       {item.name}
