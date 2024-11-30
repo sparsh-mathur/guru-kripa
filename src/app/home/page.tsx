@@ -12,10 +12,10 @@ const page = () => {
       <section>
         <div className="absolute top-[8%] left-[15%] z-40 bg-[#fff]/50 backdrop-blur-sm shadow-lg p-8 rounded-sm flex flex-col gap-8">
           <h1 className="text-4xl text-black font-bold text-center">
-            Welcome to Guru Kripa R.C. Security Services
+            Welcome to Guru Kripa R.C. Security Services Since 2013
           </h1>
           <p className="text-black text-left">
-            PSARA Certified Security Service Agency
+            PASARA Certified Security Service Agency
           </p>
           <div className="flex gap-4">
             <button className="border-sky-800 border-4 text-amber-900 px-4 py-2 rounded-md text-lg">
