@@ -6,7 +6,7 @@ export const Header = () => {
     <header className="bg-white drop-shadow-md">
       <div className="bg-sky-800 w-full h-10 flex items-center">
         <div className="container m-auto w-full flex justify-end">
-          <p className="text-white text-sm">{`Sales :+91-7982606235, Job/भर्ती: +91-9958226437`}</p>
+          <p className="text-white text-sm">{`Sales, Job/भर्ती :+91-7982606235, +91-9958226437`}</p>
         </div>
       </div>
       <div className="py-4 container mx-auto flex justify-between items-center">
