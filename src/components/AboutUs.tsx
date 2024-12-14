@@ -1,6 +1,8 @@
 import React from "react";
 
 const AboutUsSection = () => {
+
+    // comment for redploy
     return (
         <section className="bg-slate-100 w-full p-8 flex flex-col gap-8" id="management">
             <h1 className="text-4xl text-black font-bold text-center">
