@@ -21,7 +21,7 @@ export const Footer = () => {
               <p className="text-sm mb-4">
                 Best Security Service Provider in Delhi, Noida, Gurgaon & All Across The Ncr.
                 <br />
-                Guru Kripa R.C. Security Services PSARA Certified. Proman Securitech was established in 2013.
+                Guru Kripa R.C. Security Services PASARA Certified. Proman Securitech was established in 2013.
               </p>
             </div>
 
@@ -50,19 +50,26 @@ export const Footer = () => {
               <h3 className="text-lg font-semibold mb-4">Support Links</h3>
               <ul className="space-y-2">
                 {[
-                 {name:"About Us",link:"#management"},
-                  {name:"Contact Us",link:"#contact"},
-                  {name:"Brochures",link:"#"},
-                  {name:"Privacy Policy",link:"/privacy-policy"},
+                  { name: "About Us", link: "#management" },
+                  { name: "Contact Us", link: "https://docs.google.com/forms/d/e/1FAIpQLSfACutfsszRjneYE5mJOkGabZ7NQSAPb7EIOtnGQJ-JrD7rfg/viewform?pli=1" },
+                  { name: "Brochure", link: "/assets/pdfs/Brochure.pdf" },
+                  { name: "Privacy Policy", link: "/privacy-policy" },
                 ].map((item) => (
                   <li key={item.name}>
-                    <Link href={item.link} className="hover:text-gray-300">
+                    <Link
+                      href={item.link}
+                      className="hover:text-gray-300"
+                      target={item.name === "Contact Us" ? "_blank" : undefined} // Open Contact Us in a new tab
+                      rel={item.name === "Contact Us" ? "noopener noreferrer" : undefined} // Add security attributes
+                      download={item.name === "Brochure" ? "Brochure.pdf" : undefined} // Add download attribute
+                    >
                       {item.name}
                     </Link>
                   </li>
                 ))}
               </ul>
             </div>
+
 
             {/* Contact Us */}
             <div className="md:col-span-1">

@@ -7,12 +7,12 @@ const QUESTIONS = [
       "Security concerns can arise at any moment, and we understand the importance of immediate assistance. Our round-the-clock availability guarantees that you can reach us at any time, day or night, ensuring a swift and effective response to any security issues that may arise.",
   },
   {
-    title: "PSARA License Registration",
+    title: "PASARA License Registration",
     subtitle:
-      "Guru Kripa R.C. Security Services is proud to be registered under the Private Security Agencies Regulation Act (PSARA). This certification signifies our compliance with legal standards, assuring clients of the legitimacy and reliability of our security services.",
+      "Guru Kripa R.C. Security Services is proud to be registered under the Private Security Agencies Regulation Act (PASARA). This certification signifies our compliance with legal standards, assuring clients of the legitimacy and reliability of our security services.",
   },
   {
-    title: "How many year's exprience",
+    title: "How many year's experience",
     subtitle:
       "With a decade of experience, GKRCSS has earned the trust of numerous clients. Our long-standing presence in the security industry attests to our reliability, professionalism, and the consistent delivery of high-quality security solutions.",
   },
@@ -42,7 +42,11 @@ const ContactFormSection = () => {
           ))}
         </div>
         <div className="pr-32 h-96 flex justify-center items-center">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfACutfsszRjneYE5mJOkGabZ7NQSAPb7EIOtnGQJ-JrD7rfg/viewform?pli=1">
+          <a 
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfACutfsszRjneYE5mJOkGabZ7NQSAPb7EIOtnGQJ-JrD7rfg/viewform?pli=1"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
             <button className="bg-sky-800 text-white px-4 py-2 rounded-md text-lg">
               Get A Quote
             </button>

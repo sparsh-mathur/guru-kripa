@@ -29,6 +29,11 @@ export const Header = () => {
               </a>
             </li>
             <li>
+              <a href="#aboutus" className="">
+                About Us
+              </a>
+            </li>
+            <li>
               <a href="#contact" className="">
                 Contact Us
               </a>
