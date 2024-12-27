@@ -50,7 +50,7 @@ export const Footer = () => {
               <h3 className="text-lg font-semibold mb-4">Support Links</h3>
               <ul className="space-y-2">
                 {[
-                  { name: "About Us", link: "#management" },
+                  { name: "About Us", link: "/about-us" },
                   { name: "Contact Us", link: "https://docs.google.com/forms/d/e/1FAIpQLSfACutfsszRjneYE5mJOkGabZ7NQSAPb7EIOtnGQJ-JrD7rfg/viewform?pli=1" },
                   { name: "Brochure", link: "/assets/pdfs/Brochure.pdf" },
                   { name: "Privacy Policy", link: "/privacy-policy" },

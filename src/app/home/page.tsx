@@ -1,7 +1,6 @@
 import { CardWithImage } from "@/components";
 import { Carousel } from "@/components/Carousel";
 import ContactFormSection from "@/components/ContactFormSection";
-import AboutUsSection from "@/components/AboutUs";
 import { SERVICES } from "@/constants/services";
 import { CLIENTS } from "@/constants/clients";
 import React from "react";
@@ -82,7 +81,6 @@ const page = () => {
         </div>
       </section>
 
-      <AboutUsSection />
       <ContactFormSection />
     </div>
   );
