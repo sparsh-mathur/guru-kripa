@@ -21,7 +21,7 @@ export const Footer = () => {
               <p className="text-sm mb-4">
                 Best Security Service Provider in Delhi, Noida, Gurgaon & All Across The Ncr.
                 <br />
-                Guru Kripa R.C. Security Services is PASARA Certified, established in 2013.
+                Guru Kripa R.C. Security Services is PASARA Certified. Guru Kripa R.C. Security Services was established in 2013.
               </p>
             </div>
 
