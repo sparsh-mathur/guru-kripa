@@ -13,7 +13,7 @@ export const Footer = () => {
             <div className="md:col-span-1">
               <Image
                 src="/assets/icons/logo.jpg"
-                alt="Proman Logo"
+                alt="Logo"
                 width={100}
                 height={100}
                 className="mb-4"
@@ -21,7 +21,7 @@ export const Footer = () => {
               <p className="text-sm mb-4">
                 Best Security Service Provider in Delhi, Noida, Gurgaon & All Across The Ncr.
                 <br />
-                Guru Kripa R.C. Security Services PASARA Certified. Proman Securitech was established in 2013.
+                Guru Kripa R.C. Security Services is PASARA Certified. Guru Kripa R.C. Security Services was established in 2013.
               </p>
             </div>
 

@@ -44,7 +44,7 @@ const AboutUsSection = () => {
                             <h2 className="text-4xl font-bold mb-6">Our Story</h2>
                             <div className="space-y-4">
                                 <p>
-                                    Welcome to Guru Kripa RC Security Services. Established in 2014, our company has experienced impressive growth, thanks to our commitment to progress and excellence. This dedication has helped us become one of the leading security guard companies in Delhi NCR and UP.
+                                    Welcome to Guru Kripa RC Security Services. Established in 2013, our company has experienced impressive growth, thanks to our commitment to progress and excellence. This dedication has helped us become one of the leading security guard companies in Delhi NCR and UP.
                                 </p>
                                 <p>
                                     Guru Kripa RC Security was founded in Noida, Delhi NCR, with a strong focus on providing top-tier security solutions. We take pride in offering a comprehensive range of services tailored to meet the diverse needs of our clients.
